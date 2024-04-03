@@ -21,6 +21,9 @@
 body {
   background-color: var(--cream);
   font-size: 14px;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 p {
@@ -34,7 +37,6 @@ p {
   display: flex;
   flex-direction: row;
   background-color: white;
-  margin: 200px auto;
   width: 90%;
   max-width: 550px;
   border-radius: 10px;
@@ -136,7 +138,6 @@ p {
   .card-container{
     flex-direction: column;
     width: 95%;
-    margin: 30px auto;
   }
 
   .card-image{
